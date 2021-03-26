@@ -10,7 +10,13 @@ git clone https://github.com/shuhrat02/otus-astra-docker.git
 vagrant up
 ```
 4. Теперь можно отойти на 2-3 мин, заварить себе чай и дождаться когда развернется гостевая Astra Linux с docker на борту.
-5. В случае возникновения ошибок выполните команду: 
+5. В случае возникновения ошибки: 
+`"Vagrant attempted to execute the capability 'configure_networks'
+on the detect guest OS 'linux', but the guest doesn't                                                                                                        
+support that capability. This capability is required for your                                                                                                
+configuration of Vagrant. Please either reconfigure Vagrant to                                                                                               
+avoid this capability or fix the issue by creating the capability." `
+выполните команду: 
 ```bash
 vagrant provision
 ```
