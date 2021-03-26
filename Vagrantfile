@@ -2,8 +2,9 @@
 # vi: set ft=ruby :
  
 Vagrant.configure("2") do |config|
- 
+
 config.vm.box = "orel-vanilla-gui/2.12.29"
+config.vm.box_url = "https://vault.astralinux.ru/vagrant/orel-vanilla-2.12.29.json"
  
 config.vm.provider "virtualbox" do |vb|
 # Display the VirtualBox GUI when booting the machine
