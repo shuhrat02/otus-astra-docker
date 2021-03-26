@@ -1,4 +1,4 @@
-# otus-astra-docker (astralinux+ vagrant + docker) 
+# otus-astra-docker (astralinux + vagrant + docker) 
 ### Создание ВМ Astra Linux Orel с установленным docker:
 1. На хостовой машине предварительно должен быть установлен "vagrant" (https://www.vagrantup.com/) & VirtualBox
 1. Далее нужно выполнить команду:
