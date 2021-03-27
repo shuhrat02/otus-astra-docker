@@ -15,8 +15,8 @@ vb.cpus = 4
 vb.customize ["modifyvm", :id, "--nested-hw-virt", "on"]
 end
 
-config.vm.network "private_network", ip: "192.168.50.2"
-config.vm.hostname = "astralinux.test" 
+# config.vm.network "private_network", ip: "192.168.50.2"
+# config.vm.hostname = "astralinux.test" 
 
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
